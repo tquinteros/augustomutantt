@@ -5,11 +5,18 @@
 
 html{
     background-color: #1d2015;
+<<<<<<< HEAD
 }
 
 body{
     color:white;
 }
+=======
+    color: white;
+}
+
+
+>>>>>>> 11305e9b9ab28db9c4036c1abd75950a87211c09
 
 .layout{
     display: grid;
@@ -21,14 +28,18 @@ body{
 
 }
 
+<<<<<<< HEAD
 .carousel{
     margin: 0 auto;
 }
 
+=======
+>>>>>>> 11305e9b9ab28db9c4036c1abd75950a87211c09
 header{
     grid-area: header;
     background-image: linear-gradient(black, gray);
     /* background-color: #1d2015; */
+<<<<<<< HEAD
     /* display: flex; */
 }
 
@@ -37,6 +48,11 @@ header{
 } */
 
 
+=======
+    display: flex;
+}
+
+>>>>>>> 11305e9b9ab28db9c4036c1abd75950a87211c09
 main{
     grid-area: main;
     background-color: #2b2c28;
@@ -57,7 +73,11 @@ footer {
 .header_logo{
     width: 100%;
 }
+<<<<<<< HEAD
 /* 
+=======
+
+>>>>>>> 11305e9b9ab28db9c4036c1abd75950a87211c09
 .nav{
     display: flex;
     width: 100%;
@@ -82,7 +102,11 @@ footer {
     animation-name: change-color;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 11305e9b9ab28db9c4036c1abd75950a87211c09
 
 @keyframes change-color{
     from {color: white;}
@@ -156,7 +180,10 @@ footer {
 }
 
 .description_title{
+<<<<<<< HEAD
     padding-top: 20px;
+=======
+>>>>>>> 11305e9b9ab28db9c4036c1abd75950a87211c09
     padding-bottom: 20px;
     text-align: center;
 }
