@@ -5,10 +5,11 @@
 
 html{
     background-color: #1d2015;
-    color: white;
 }
 
-
+body{
+    color:white;
+}
 
 .layout{
     display: grid;
@@ -20,11 +21,21 @@ html{
 
 }
 
+.carousel{
+    margin: 0 auto;
+}
+
 header{
     grid-area: header;
-    background-color: #1d2015;
-    display: flex;
+    background-image: linear-gradient(black, gray);
+    /* background-color: #1d2015; */
+    /* display: flex; */
 }
+
+/* .navbar-collapse{
+    flex-grow: initial;
+} */
+
 
 main{
     grid-area: main;
@@ -46,7 +57,7 @@ footer {
 .header_logo{
     width: 100%;
 }
-
+/* 
 .nav{
     display: flex;
     width: 100%;
@@ -68,6 +79,14 @@ footer {
     width: fit-content;
     margin: 0 20px;
     font-size: 32px;
+    animation-name: change-color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes change-color{
+    from {color: white;}
+    to {color: gray;}
 }
 
 .main-title {
@@ -92,10 +111,20 @@ footer {
 .facebook-logo{
     width: 50px;
     margin-right: 20px;
+    transition: width 2s;
+}
+
+.facebook-logo:hover{
+    width: 75px;
 }
 
 .instagram-logo{
     width: 50px;
+    transition: width 2s;
+}
+
+.instagram-logo:hover{
+    width: 75px;
 }
 
 .images-grid{
@@ -127,6 +156,7 @@ footer {
 }
 
 .description_title{
+    padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -218,3 +248,4 @@ footer {
 .about_me_title {
     text-align: center;
 }
+
